@@ -1,0 +1,3 @@
+
+We will learn Spring MVC in the third Week.
+We will learn and develop a simple app using Spring.
