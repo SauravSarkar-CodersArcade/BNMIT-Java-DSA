@@ -1,5 +1,4 @@
 package com.bnmit.dsa.adv.dataStructures.nonLinear.trees.interviewQuestions.serializeDeserialize;
-
 class TreeNode {
      int val;
      TreeNode left;
@@ -13,7 +12,6 @@ public class Codec {
         serializeHelper(root, sb);
         return sb.toString();
     }
-
     public void serializeHelper(TreeNode node, StringBuilder sb) {
         if (node == null) {
             sb.append("null,");
