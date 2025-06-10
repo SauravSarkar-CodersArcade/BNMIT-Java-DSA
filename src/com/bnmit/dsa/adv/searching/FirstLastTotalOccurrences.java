@@ -11,7 +11,6 @@ public class FirstLastTotalOccurrences {
                 // Go to the extreme left hand side to find the first occurrence
                 ans = mid;
                 e = mid - 1;
-            }else if(arr[mid] < key){
                 s = mid + 1;
             }else {
                 e = mid - 1;
