@@ -1,0 +1,22 @@
+Q3. Create a Patient Class with a Parameterised Constructor to
+load the following data into each instance:
+1. patientName
+2. patientAge
+3. doa (dateOfArrival)
+4. disease
+Your class should have a method called patientDetails()
+which when called
+should display all the attributes.
+Note:
+The diseases should be any one from :
+a) Malaria
+b) Jaundice
+c) Influenza
+d) SARS-COVID-19
+Create an Information CLass which has the parameters :
+blockNo, floorNo, roomNo, bedNo.
+Payment Class : admFees, regFees, balAmt;
+When you call the patientDetails() method,
+these should be displayed as well. Note, you cannot use inheritance (extends keyword).
+
+Accenture - IBM - Infosys - CapGemini - 2022,23,24,25   Time 3 Minutes
