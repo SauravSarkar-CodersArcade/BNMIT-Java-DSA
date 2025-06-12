@@ -1,6 +1,6 @@
-package com.bnmit.dsa.adv.dataStructures.nonLinear.trees.graphs.representation;
+package com.bnmit.dsa.adv.dataStructures.nonLinear.trees.graphs.representation.matrix;
 import java.util.Scanner;
-public class GraphMatrix {
+public class GraphMatrixDirected {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // n -> nodes
@@ -13,9 +13,9 @@ public class GraphMatrix {
         for (int i=0; i<m; i++){
             int u = sc.nextInt();
             int v = sc.nextInt();
-            // Undirected -> u <---> v
+            // Directed -> u ---> v
             adjMatrix[u][v] = 1;
-            adjMatrix[v][u] = 1; // Don't do this for directed
+            // adjMatrix[v][u] = 1; // Don't do this for directed
         }
         // Print the Adjacency Matrix
         for (int i=1; i<=n; i++){
