@@ -140,7 +140,7 @@ Contributions by students are welcome! For improvements or new problem additions
 
 ## 🔗 Connect with Me
 
-* 🌐 [LinkedIn – Saurav Sarkar](https://www.linkedin.com/in/sauravsarkar/)
+* 🌐 [LinkedIn – Saurav Sarkar](https://www.linkedin.com/in/saurav-sarkar-0b49251b1/)
 * 📺 [Coders Arcade – YouTube Channel](https://www.youtube.com/@CodersArcade)
 
 ---
