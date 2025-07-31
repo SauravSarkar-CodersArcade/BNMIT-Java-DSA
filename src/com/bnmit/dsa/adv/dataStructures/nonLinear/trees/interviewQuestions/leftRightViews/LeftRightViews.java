@@ -1,8 +1,6 @@
 package com.bnmit.dsa.adv.dataStructures.nonLinear.trees.interviewQuestions.leftRightViews;
-
 import java.util.LinkedList;
 import java.util.Queue;
-
 class Node{
     int val;
     Node left;
@@ -13,32 +11,10 @@ class Node{
     }
 }
 public class LeftRightViews {
-//    public static void leftView(Node root){
-//        if(root == null){
-//            System.out.println("Empty tree. Can't print left view.");
-//            return;
-//        }
-//        Node temp = root;
-//        while (temp != null){
-//            System.out.print(temp.val + " ");
-//            temp = temp.left;
-//        }
-//        System.out.println();
-//    }
-//    public static void rightView(Node root){
-//        if(root == null){
-//            System.out.println("Empty tree. Can't print right view.");
-//            return;
-//        }
-//        Node temp = root;
-//        while (temp != null){
-//            System.out.print(temp.val + " ");
-//            temp = temp.right;
-//        }
-//        System.out.println();
-//    }
+
     public static void printLeftView(Node root){
         if(root == null){
+            System.out.println("Empty tree. Can't print left view.");
             return;
         }
         Queue<Node> q = new LinkedList<>();
@@ -56,6 +32,7 @@ public class LeftRightViews {
     }
     public static void printRightView(Node root){
         if(root == null){
+            System.out.println("Empty tree. Can't print left view.");
             return;
         }
         Queue<Node> q = new LinkedList<>();

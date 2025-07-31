@@ -1,4 +1,4 @@
-package com.bnmit.dsa.basics;
+package com.bnmit.dsa.basics.exceptions;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

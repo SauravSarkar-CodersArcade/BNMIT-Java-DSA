@@ -1,7 +1,7 @@
 package com.bnmit.dsa.adv.collections;
 import java.util.Hashtable;
 import java.util.Map;
-public class HastTableDemo {
+public class HashTableDemo {
     public static void main(String[] args) {
         Hashtable<Integer, String> ht = new Hashtable<>();
         ht.put(106, "Pramath");
